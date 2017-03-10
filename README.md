@@ -1,6 +1,6 @@
 # gulp-dot-flatten
 
-gulp-dot-flatten is a [gulp](https://github.com/wearefractal/gulp) plugin to recursively flatten JS files into a single directory.
+gulp-dot-flatten is a [gulp](https://github.com/gulpjs/gulp) plugin to recursively flatten JS files into a single directory.
 
 ## Usage
 
