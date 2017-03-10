@@ -1,0 +1,34 @@
+{
+  "name": "gulp-dot-flatten",
+  "version": "0.1.0",
+  "description": "Recursively flatten JS files into a single directory",
+  "keywords": [
+    "gulpplugin"
+  ],
+  "homepage": "https://github.com/WaveHack/gulp-dot-flatten",
+  "bugs": {
+    "url": "https://github.com/WaveHack/gulp-dot-flatten/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "WaveHack",
+    "email": "email@wavehack.net",
+    "url": "https://github.com/WaveHack"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "./index.js",
+  "repository": "WaveHack/gulp-dot-flatten",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": ">=3.0.0",
+    "gulp-util": "^3.0.7",
+    "recast": "^0.11.10",
+    "through2": "^2.0.1"
+  },
+  "engines": {
+    "node": ">=0.10"
+  }
+}
