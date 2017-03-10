@@ -61,7 +61,7 @@ Original authors and contributors:
 
 - [resir014](https://github.com/resir014)
 - [valerian](https://github.com/valerian)
-- [ratuple0](https://github.com/ratuple0)
+- [ratuple](https://github.com/ratuple)
 - [ags131](https://github.com/ags131)
 
 ## License
