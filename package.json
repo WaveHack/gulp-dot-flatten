@@ -20,8 +20,6 @@
   ],
   "main": "./index.js",
   "repository": "WaveHack/gulp-dot-flatten",
-  "scripts": {},
-  "dependencies": {},
   "devDependencies": {
     "gulp": ">=3.0.0",
     "gulp-util": "^3.0.7",
