@@ -1,6 +1,6 @@
 # gulp-dot-flatten
 
-![Build Status](https://travis-ci.org/WaveHack/gulp-dot-flatten.svg?branch=master)
+[![Build Status](https://travis-ci.org/WaveHack/gulp-dot-flatten.svg?branch=master)](https://travis-ci.org/WaveHack/gulp-dot-flatten)
 [![Dependency Status](https://gemnasium.com/badges/github.com/WaveHack/gulp-dot-flatten.svg)](https://gemnasium.com/github.com/WaveHack/gulp-dot-flatten)
 ![Downloads](https://img.shields.io/npm/dm/gulp-dot-flatten.svg)
 ![NPM version](https://img.shields.io/node/v/gulp-dot-flatten.svg)
