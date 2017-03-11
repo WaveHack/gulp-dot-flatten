@@ -11,7 +11,7 @@ gulp-dot-flatten is a [gulp](https://github.com/gulpjs/gulp) plugin to recursive
 ## About
 
 
-Will rewrite the following things when used with the [usage](#usage) code below:  
+Will rewrite the following filenames when used with the [usage](#usage) example below:  
 
 ```
 /build/Main.js
@@ -19,7 +19,7 @@ Will rewrite the following things when used with the [usage](#usage) code below:
 /build/Foo/Bar/Baz.js
 ```
 
-Into to this:
+Into this:
 
 ```
 /dist/Main.js
@@ -27,7 +27,7 @@ Into to this:
 /dist/Foo.Bar.Baz.js
 ```
 
-Any `require('./something/something')` will be rewritten into `require('./something.something')`.
+Any `require('./foo/bar')` will be rewritten into `require('./foo.bar')`.
 
 This library is made specifically for usage with [Screeps](https://screeps.com/) due to its lack of directory support.
 
@@ -55,9 +55,9 @@ gulp.task('flatten', () => {
 
 Type: `Function`
 
-Function which passes through the rewritten filenames.
+Optional function in which the filename will pass through. Useful for things like forcing lowercase filenames, if desired.
 
-Example for lowercase filenames:
+Example:
 
 ```js
 var dotFlatten = require('gulp-dot-flatten');
