@@ -7,6 +7,29 @@
 
 gulp-dot-flatten is a [gulp](https://github.com/gulpjs/gulp) plugin to recursively flatten JS files into a single directory.
 
+## About
+
+
+Will rewrite the following things when used with the [usage](#usage) code below:  
+
+```
+/build/Main.js
+/build/Foo/Bar.js
+/build/Foo/Bar/Baz.js
+```
+
+Into to this:
+
+```
+/dist/Main.js
+/dist/Foo.Bar.js
+/dist/Foo.Bar.Baz.js
+```
+
+Any `require('./something/something')` will be rewritten into `require('./something.something')`.
+
+This library is made specifically for usage with [Screeps](https://screeps.com/) due to its lack of directory support.
+
 ## Install
 
 `npm install --save-dev gulp-dot-flatten`
